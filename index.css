@@ -4,8 +4,14 @@
   	margin: 0;
 		padding: 0;
 		border: 0;
-		font-size: 100%;
 		vertical-align: baseline;
+
+}
+
+p {
+
+
+
 
 }
 
@@ -13,25 +19,46 @@ body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   margin: 0 auto;
   max-width: 50em;
-  background:#CDCDCD;
-  line-height: 1.5;
+  /*background:#011638;*/
+  background: linear-gradient(0, #DFF8EB, #011638);
+  line-height: 1.4;
   list-style:none;
   padding-bottom:10em;
   font-size:18px;
+  font-weight: 400;
+  font-size: 130%;
+  text-shadow: 0 0 1px #343434;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;  
+
 
 }
 
 a{
-  color: #011638;
+  color: #DFF8EB;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;  
 }
 
  h2{
   font-size: 24px;
-  align-self: center;
+  width:100%;
+  text-align: center;
+  background: #011638;
 }
 h3{
   font-size:20px;
-  align-self:center;
+  text-align: center;
+  border-top:1px solid #364156;
+  width:100%;
+  background: #CDCDCD;
 }
 
 header{
@@ -42,7 +69,7 @@ header{
   border:1px solid #19B37B;
   border-bottom:none;
   align-items:center;
-  background:#CDCDCD;
+  /*background:#011638;*/
 }
 section{
   display:flex;
@@ -54,10 +81,14 @@ section{
 header h1{
   font-weight: bold;
   font-size:38px;
+  width:100%;
+  text-align:center;
+  border-bottom: 1px solid #011638;
 }
 
-header img {
-  width:220px;
+
+img{
+  width:100%;
 }
 
 header p {
@@ -97,15 +128,4 @@ header nav ul li, .project-stack li, .project-links ul li {
 
 .hidden{
   display:none;
-}
-.project-1{
-  background: #364156;
-}
-
-.project-2{
-  background: #214E34;
-}
-
-.project-4{
-  background: #DFF8EB;
 }
