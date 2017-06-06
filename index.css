@@ -10,7 +10,8 @@
 
 p {
 
-
+  padding-left:1em;
+  padding-right:1em;
 
 
 }
@@ -66,8 +67,6 @@ header{
   max-width:50em;
   justify-content:center;
   flex-direction:column;
-  border:1px solid #19B37B;
-  border-bottom:none;
   align-items:center;
   /*background:#011638;*/
 }
@@ -93,6 +92,7 @@ img{
 
 header p {
   max-width:30em;
+  position:absolute;
 }
 
 header nav ul {
@@ -111,7 +111,7 @@ header nav ul li, .project-stack li, .project-links ul li {
   flex-direction:row;
   justify-content:flex-start;
 }
-
+/*
 .work{
   border-left: 1px solid #19B37B;
   border-right: 1px solid #19B37B;
@@ -121,7 +121,7 @@ header nav ul li, .project-stack li, .project-links ul li {
   border: 1px solid #19B37B;
   border-top: none;
 }
-
+*/
 .project-links ul {
   margin-bottom:0;
 }
