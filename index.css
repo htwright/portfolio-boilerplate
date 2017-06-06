@@ -27,7 +27,6 @@ body {
   padding-bottom:10em;
   font-size:18px;
   font-weight: 400;
-  text-shadow: 0 0 1px #343434;
   color: white;
   text-shadow:
   -1px -1px 0 #000,
@@ -40,11 +39,6 @@ body {
 
 a{
   color: #DFF8EB;
-  text-shadow:
-  -1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;  
 }
 
  h2{
