@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
   max-width: 50em;
   /*background:#011638;*/
-  background: linear-gradient(0, #DFF8EB, #011638);
+  background: linear-gradient(0, #364156, #011638);
   line-height: 1.4;
   list-style:none;
   padding-bottom:10em;
@@ -45,7 +45,9 @@ a{
   font-size: 24px;
   width:100%;
   text-align: center;
-  background: #011638;
+  border-top:1px solid #364156;
+  padding-top:0.3em;
+  padding-bottom:0.3em;
 }
 h3{
   font-size:20px;
