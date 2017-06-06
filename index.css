@@ -1,22 +1,39 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
+*{
+  	margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		vertical-align: baseline;
+
+}
+
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   margin: 0 auto;
   max-width: 50em;
-  background:#FDFFFC;
+  background:#CDCDCD;
   line-height: 1.5;
   list-style:none;
   padding-bottom:10em;
+  font-size:18px;
 
 }
+
 a{
-  color: #35B385;
+  color: #011638;
 }
+
  h2{
-  margin-top:0;
-  margin-bottom:0;
+  font-size: 24px;
+  align-self: center;
 }
+h3{
+  font-size:20px;
+  align-self:center;
+}
+
 header{
   display:flex;
   max-width:50em;
@@ -25,14 +42,24 @@ header{
   border:1px solid #19B37B;
   border-bottom:none;
   align-items:center;
+  background:#CDCDCD;
 }
+section{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+
+}
+
 header h1{
   font-weight: bold;
   font-size:38px;
 }
+
 header img {
   width:220px;
 }
+
 header p {
   max-width:30em;
 }
@@ -42,17 +69,43 @@ header nav ul {
   list-style:none;
   justify-content:space-around;
 }
-header nav ul li {
+
+header nav ul li, .project-stack li, .project-links ul li {
   padding:1em;
+  list-style:none;
 }
+
+.project-stack, .project-links ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+}
+
 .work{
   border-left: 1px solid #19B37B;
   border-right: 1px solid #19B37B;
 }
+
 .contact{
   border: 1px solid #19B37B;
   border-top: none;
 }
+
 .project-links ul {
   margin-bottom:0;
+}
+
+.hidden{
+  display:none;
+}
+.project-1{
+  background: #364156;
+}
+
+.project-2{
+  background: #214E34;
+}
+
+.project-4{
+  background: #DFF8EB;
 }
