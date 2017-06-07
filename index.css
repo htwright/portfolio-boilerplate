@@ -1,5 +1,18 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
+@media (min-width: 780px){
+  .work section, .work h2{
+    border-left: 4px solid #364156;
+    border-right: 4px solid #364156;
+  }
+  h2{
+    width:100%;
+  }
+  section{
+    width:100%;
+  }
+}
+
 *{
   	margin: 0;
 		padding: 0;
