@@ -10,8 +10,7 @@
 
 p {
 
-  padding-left:1em;
-  padding-right:1em;
+  padding:1em;
 
 
 }
@@ -22,17 +21,12 @@ body {
   max-width: 50em;
   /*background:#011638;*/
   background: linear-gradient(0, #364156, #011638);
-  line-height: 1.4;
+  line-height: 1.5;
   list-style:none;
   padding-bottom:10em;
   font-size:18px;
   font-weight: 400;
   color: white;
-  text-shadow:
-  -1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;  
 
 
 }
@@ -45,7 +39,7 @@ a{
   font-size: 24px;
   width:100%;
   text-align: center;
-  border-top:1px solid #364156;
+  border-top:2px solid grey;
   padding-top:0.3em;
   padding-bottom:0.3em;
 }
