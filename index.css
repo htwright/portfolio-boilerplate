@@ -37,6 +37,17 @@ body {
 
 a{
   color: #DFF8EB;
+  text-decoration: none;
+
+}
+
+.project-links a {
+  background: #013F1B;
+  padding: 1em;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -khtml-border-radius: 8px;  
+  border-radius: 8px;
 }
 
  h2{
@@ -115,7 +126,7 @@ header nav ul li, .project-stack li, .project-links ul li {
   flex-direction:row;
   justify-content:space-around;
   margin:1em;
-  padding-bottom:0.5em;
+  padding-bottom:5em;
 
 }
 
