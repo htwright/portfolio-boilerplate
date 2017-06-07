@@ -155,7 +155,7 @@ header nav ul li, .project-stack li, .project-links ul li {
 
 .contact-list {
   display:flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-content:center;
   list-style:none;
 
