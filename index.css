@@ -62,11 +62,10 @@ a{
 h3{
   font-size:20px;
   text-align: center;
-  border-top:1px solid #364156;
   width:100%;
   padding-top:0.6em;
   padding-bottom:0.6em;
-  background: #214E34;
+  background: #002EC6;
   color: #D0D4DA;
 }
 
@@ -96,7 +95,8 @@ header h1{
   width:100%;
   text-align:center;
   border-bottom: 4px solid #364156;
-  padding:1em;
+  padding-bottom:1em;
+  padding-top:1em;
   color: #D0D4DA;
 }
 
@@ -117,7 +117,8 @@ header nav ul {
 }
 
 header nav ul li, .project-stack li, .project-links ul li {
-  padding:1em;
+  padding-left:1em;
+  padding-right:1em;
   list-style:none;
 }
 
@@ -126,9 +127,30 @@ header nav ul li, .project-stack li, .project-links ul li {
   flex-direction:row;
   justify-content:space-around;
   margin:1em;
+  margin-top:0;
   padding-bottom:5em;
 
 }
+
+.project-stack-icons {
+  display:flex;
+  justify-content: space-around;
+  margin-right:1.5em;
+  margin-left:1em;
+}
+
+.project-stack-icons li {
+  list-style:none;
+  align-self:center;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0;
+}
+
+.project-stack-icons li img {
+  width:3em;
+}
+
 
 .contact-list {
   display:flex;
@@ -168,6 +190,8 @@ header nav ul li, .project-stack li, .project-links ul li {
     padding: 10px;
 
 }
+
+
 
 /*
 .work{
