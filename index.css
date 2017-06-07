@@ -10,7 +10,7 @@
 
 p {
 
-  padding:1em;
+  padding:1.5em;
 
 
 }
@@ -26,7 +26,7 @@ body {
   padding-bottom:10em;
   font-size:18px;
   font-weight: 400;
-  color: white;
+  color: #8B95A4;
 
 
 }
@@ -39,16 +39,20 @@ a{
   font-size: 24px;
   width:100%;
   text-align: center;
-  border-top:2px solid grey;
-  padding-top:0.3em;
-  padding-bottom:0.3em;
+  border-top:4px solid #364156;
+  padding-top:0.6em;
+  padding-bottom:0.6em;
+  color: #D0D4DA;
 }
 h3{
   font-size:20px;
   text-align: center;
   border-top:1px solid #364156;
   width:100%;
-  background: #CDCDCD;
+  padding-top:0.6em;
+  padding-bottom:0.6em;
+  background: #364156;
+  color: #D0D4DA;
 }
 
 header{
@@ -72,6 +76,8 @@ header h1{
   width:100%;
   text-align:center;
   border-bottom: 1px solid #011638;
+  padding:1em;
+  color: #D0D4DA;
 }
 
 
@@ -79,10 +85,6 @@ img{
   width:100%;
 }
 
-header p {
-  max-width:30em;
-  background
-}
 
 header nav ul {
   display:flex;
@@ -95,11 +97,51 @@ header nav ul li, .project-stack li, .project-links ul li {
   list-style:none;
 }
 
-.project-stack, .project-links ul{
+.project-stack, .project-links ul {
   display:flex;
   flex-direction:row;
   justify-content:flex-start;
 }
+
+.contact-list {
+  display:flex;
+  justify-content: flex-start;
+  align-content:center;
+  list-style:none;
+
+}
+
+.link-img{
+  max-width:5em;
+  padding:1em;
+  height:60%;
+  align-self:center;
+}
+
+.github{
+ background: red;
+    padding: 0;
+     -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;  
+    border-radius: 8px;
+    width: 5em;
+    height: 85%;
+    overflow: hidden;
+}
+
+.outer {
+      width: 100px;
+    height: 100px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;  
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+
+}
+
 /*
 .work{
   border-left: 1px solid #19B37B;
