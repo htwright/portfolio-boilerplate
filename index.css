@@ -5,13 +5,15 @@
     border-left: 4px solid #364156;
     border-right: 4px solid #364156;
   }
-  h2{
-    width:100%;
-  }
-  section{
-    width:100%;
+
+
+
+  body {
+
   }
 }
+
+
 
 *{
   	margin: 0;
@@ -94,6 +96,7 @@ section{
   display:flex;
   justify-content:center;
   flex-direction:column;
+  width:100%;
 
 }
 
@@ -205,7 +208,13 @@ header nav ul li, .project-stack li, .project-links ul li {
 
 }
 
+.work section:last-child{
+    border-bottom: 4px solid #364156;
+  }
 
+.contact h2 {
+    border-top: 0;
+  }
 
 /*
 .work{
