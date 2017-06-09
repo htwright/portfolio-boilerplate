@@ -27,14 +27,12 @@ p {
 
   padding:1.5em;
 
-
 }
 
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   margin: 0 auto;
-  max-width: 50em;
-  background:#011638;
+
   /*background: linear-gradient(0, #364156, #011638);
   background: -webkit-linear-gradient(#011638, #364156);
   background: -o-linear-gradient(#011638, #364156);
@@ -45,7 +43,6 @@ body {
   padding-bottom:10em;
   font-size:18px;
   font-weight: 400;
-  color: #D0D4DA;
 
 
 }
@@ -53,6 +50,10 @@ body {
 a{
   color: #DFF8EB;
   text-decoration: none;
+
+}
+.work {
+    background: #D0D4DA;
 
 }
 
@@ -84,25 +85,44 @@ h3{
   color: #D0D4DA;
 }
 
-header{
+/*header{
   display:flex;
   max-width:50em;
   justify-content:center;
   flex-direction:column;
   align-items:center;
-  /*background:#011638;*/
-}
-section{
+}*/
+.main-flex{
   display:flex;
+  margin:0 auto;
   justify-content:center;
+  align-items:center;
   flex-direction:column;
+  max-width:50em;
+}
+
+.parralax {
   width:100%;
+  /* The image used */
+  background-image: url("https://gregstake.files.wordpress.com/2014/02/houston-night-skyline.jpg");
+
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom:20em;
 
 }
 
 header p{
   padding-bottom:2em;
   padding-top:2em;
+  max-width:40em;
+  align-self:center;
 }
 
 header h1{
@@ -110,20 +130,24 @@ header h1{
   font-size:38px;
   width:100%;
   text-align:center;
-  border-bottom: 4px solid #364156;
-  padding-bottom:1em;
+  padding-bottom:0;
   padding-top:1em;
   color: #D0D4DA;
 }
 
 
-img{
-  width:100%;
+header{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  height:100%;
+  padding-bottom:20em;
 }
 
 header img {
   padding-top:2em;
-  width:80%;
+  width:15em;
+  align-self:center;
 }
 
 header nav ul {
@@ -138,14 +162,24 @@ header nav ul li, .project-stack li, .project-links ul li {
   list-style:none;
 }
 
-.project-stack, .project-links ul {
+img{
+  width:100%;
+}
+
+.project-stack{
   display:flex;
   flex-direction:row;
   justify-content:space-around;
-  margin:1em;
-  margin-top:0;
-  padding-bottom:3em;
+  padding:2em;
+  padding-top:0.5em;
 
+}
+.project-links ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding:5em;
+  padding-bottom:7em;
 }
 
 .project-stack-icons {
@@ -173,8 +207,12 @@ header nav ul li, .project-stack li, .project-links ul li {
   display:flex;
   justify-content: space-around;
   align-content:center;
+  max-height:8em;
   list-style:none;
+}
 
+.contact-list li {
+  justify-content:center;
 }
 
 .link-img{
@@ -212,9 +250,17 @@ header nav ul li, .project-stack li, .project-links ul li {
     border-bottom: 4px solid #364156;
   }
 
-.contact h2 {
+.contact h2, .parralax h2 {
     border-top: 0;
   }
+
+.work h2:first-of-type{
+  border:0;
+}
+
+.header-text h2{
+  color:black;
+}
 
 /*
 .work{
