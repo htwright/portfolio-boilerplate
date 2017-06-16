@@ -5,11 +5,28 @@
     border-left: 4px solid #364156;
     border-right: 4px solid #364156;
   }
+}
 
+@media (max-width: 510px){
+  body{
+    width:100%;
+  }
+  .project-links a  {
+    display:flex;
+    background: #013F1B;
+    padding: 0.5em;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -khtml-border-radius: 1px;  
+    border-radius: 1px;
 
-
-  body {
-
+  }
+  .project-links ul {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding:1em;
+    padding-bottom:2em;
   }
 }
 
@@ -103,19 +120,18 @@ h3{
 
 .parralax {
   width:100%;
-  /* The image used */
   background-image: url("https://gregstake.files.wordpress.com/2014/02/houston-night-skyline.jpg");
-
-  /* Set a specific height */
   height: 100%; 
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom:20em;
 
+}
+
+weak {
+  color: darkgrey;
 }
 
 header p{
