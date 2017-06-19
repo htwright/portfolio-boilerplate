@@ -294,3 +294,26 @@ img{
 .hidden{
   display:none;
 }
+
+.about-me section{
+  background:blue;
+}
+
+.about-me ul {
+  display:flex;
+  justify-content:space-around;
+  align-content:center;
+  max-height:10em;
+}
+
+.about-me li{
+  display:flex;
+  flex:1;
+
+
+}
+
+.headshot{
+  max-width:15em;
+  max-height:15em;
+}
