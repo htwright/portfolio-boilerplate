@@ -302,8 +302,10 @@ img{
 .about-me ul {
   display:flex;
   justify-content:space-around;
+    max-height:10em;
+  padding:2em;
+
   align-content:center;
-  max-height:10em;
 }
 
 .about-me li{
@@ -314,6 +316,6 @@ img{
 }
 
 .headshot{
-  max-width:15em;
+  max-width:12em;
   max-height:15em;
 }
