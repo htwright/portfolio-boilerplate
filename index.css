@@ -212,8 +212,8 @@ img{
   display:flex;
   flex-direction:row;
   justify-content:space-around;
-  padding:1em;
   padding-top:0.5em;
+  padding-bottom:1em;
 
 }
 .project-links ul{
@@ -221,29 +221,35 @@ img{
   flex:1;
   flex-direction:row;
   justify-content:space-around;
-  padding:1em;
-  padding-bottom:3.5em;
+  padding:2em;
+  /* padding-bottom:1em; */
 }
 
 .project-stack-icons {
   display:flex;
   justify-content: space-around;
-  margin-right:1em;
-  margin-left:1em;
-  margin-top:1em;
+  /* margin-right:1em;
+  margin-left:2em;
+  margin-top:1em; */
 }
 
 .project-stack-icons li, .project-stack li {
+  display:flex;
   list-style:none;
-  align-self:center;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-bottom: 0;
+   align-items:center; 
+  /* padding-left: 1em; */
+  /* padding-right: 1em; */
+  /* padding-bottom: 0; */
+  flex-direction: column;
+  justify-content: center;
 }
 
 .project-stack-icons li img {
   width:3em;
+  /* padding-right:1.5em;
+  align-self:center; */
 }
+
 
 
 .contact-list {
@@ -255,6 +261,12 @@ img{
 }
 
 .contact-list li {
+  justify-content:center;
+}
+
+
+.contact span{
+  display:flex;
   justify-content:center;
 }
 
