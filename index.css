@@ -46,18 +46,18 @@
 }
 
 
-
-*{
+ 
+ *{
   	margin: 0;
 		padding: 0;
 		border: 0;
-		vertical-align: baseline;
+		vertical-align: baseline; 
 
-}
+ }  
 
 p {
 
-  padding:1.5em;
+   padding-top:1em; 
 
 }
 
@@ -66,7 +66,6 @@ body {
   margin: 0 auto;
     color: #1E2835;
     background-color: #F8F8F8;
-
   /*background: linear-gradient(0, #364156, #011638);
   background: -webkit-linear-gradient(#011638, #364156);
   background: -o-linear-gradient(#011638, #364156);
@@ -74,7 +73,6 @@ body {
 
   line-height: 1.5;
   list-style:none;
-  padding-bottom:10em;
   font-size:18px;
   font-weight: 400;
 
@@ -87,7 +85,7 @@ a, .parralax p, header h1, header h2{
 
 }
 .work {
-    /* background: #D0D4DA; */
+    border-top: 4px solid #364156;
 
 }
 
@@ -101,7 +99,7 @@ a, .parralax p, header h1, header h2{
 }
 
  h2{
-  font-size: 24px;
+  font-size: 36px;
   width:100%;
   text-align: center;
   border-top:4px solid #364156;
@@ -202,7 +200,7 @@ img{
     -o-background-size: cover; 
     background-size: cover;
 
-  padding-bottom:20em;
+  padding-bottom:30em;
   /* background-image: url("https://puu.sh/x4Urs/5ecb1de084.png"); */
 
 }
@@ -221,8 +219,8 @@ img{
   flex:1;
   flex-direction:row;
   justify-content:space-around;
-  padding:2em;
-  /* padding-bottom:1em; */
+  padding:3em;
+    /* padding-bottom:5em;   */
 }
 
 .project-stack-icons {
@@ -231,6 +229,7 @@ img{
   /* margin-right:1em;
   margin-left:2em;
   margin-top:1em; */
+  padding-top:1em;
 }
 
 .project-stack-icons li, .project-stack li {
@@ -256,7 +255,7 @@ img{
   display:flex;
   justify-content: space-around;
   align-content:center;
-  max-height:8em;
+   max-height:7em; 
   list-style:none;
 }
 
@@ -268,6 +267,7 @@ img{
 .contact span{
   display:flex;
   justify-content:center;
+  padding-bottom:1em;
 }
 
 .link-img{
@@ -303,7 +303,7 @@ img{
 
 .work section:last-child{
     border-bottom: 4px solid #364156;
-    border-top: 4px solid #364156;
+    /* border-top: 4px solid #364156; */
   }
 
 .contact h2, .parralax h2 {
@@ -341,7 +341,7 @@ img{
   justify-content:space-around;
     max-height:10em;
   padding:2em;
-
+  margin-bottom:2em;
   align-content:center;
 }
 
