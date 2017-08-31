@@ -252,18 +252,69 @@ img{
   align-self:center; */
 }
 
+/* .fa {
+  color:white;
+  background-color:black;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+} */
+
 
 
 .contact-list {
   display:flex;
+  flex:1;
   justify-content: space-around;
-  align-content:center;
-   max-height:7em; 
-  list-style:none;
+  /* align-content:center;  */
+  /* max-height:3em; */
+  /* width:3em; */
+  /* list-style:none; */
 }
 
-.contact-list li {
-  justify-content:center;
+.contact-list ul {
+  /* flex:2; */
+}
+
+.contact-list a {
+  /* justify-content:center; */
+  /* max-height:4em; */
+  /* width:3em; */
+  color:white;
+  /* background-color:black; */
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  /* border-radius: 50%; */
+
+}
+.fa-linkedin{
+  background-color:#3395C4;
+}
+.fa-github{
+  color:white;
+  background-color:black;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -khtml-border-radius: 50%;  
+  border-radius: 50%;
+
 }
 
 
@@ -281,8 +332,8 @@ img{
 }
 
 .github{
- background: red;
-    padding: 0;
+ /* background: red; */
+    /* padding: 0;
      -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -khtml-border-radius: 8px;  
@@ -290,8 +341,8 @@ img{
     width: 5em;
     height: 85%;
     overflow: hidden;
+ */
 }
-
 .outer {
       width: 100px;
     height: 100px;
