@@ -392,5 +392,8 @@ img{
 }
 
 .mrp-icons{
-  padding:3em;
+  padding-bottom:3em;
+  padding-top: 3em;
+  display: flex;
+  flex:1;
 }
